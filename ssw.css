@@ -1,0 +1,96 @@
+.container{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: cyan;
+  
+}
+body{
+    font-size: 1.3em;
+    font-family: 'Work Sans', sans-serif;
+    background-color: bisque;  
+}
+nav{
+    margin: auto;
+    padding: 0.1% 0;
+    margin-right: 0;
+}
+ul{
+    text-align: right;
+}
+li{
+    display: inline;
+}
+
+a{
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.733);
+}
+a:hover{
+    background-color: rgba(107, 93, 84, 0.678);
+    color: rgba(0, 35, 122, 0.7);
+}
+#slogan{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    color: blueviolet;
+}
+#Scholar{
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    color: cadetblue;
+}
+h2{
+    color: blueviolet;
+}
+#Activities{
+  color: aqua;
+}
+#classes{
+    color: aqua;
+}
+#Contacts{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    color: blueviolet;
+}
+h2:hover{
+    color: violet;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#Contacts:hover{
+    color: violet;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#Activities:hover{
+    color: darkgoldenrod;
+    font-style: oblique;
+    font-weight: bolder;
+}
+#classes{
+    display: flex;
+    justify-content: center;
+}
+#pupils {
+    display: flex;
+    display: block;
+    gap: 2rem;
+}
+.pupils {
+ padding-left: 1rem;
+}
+#classes:hover{
+    color: darkgoldenrod;
+    font-style: oblique;
+    font-weight: bolder;
+}
